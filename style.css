@@ -1,0 +1,79 @@
+body {
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  min-height: 2250px;
+}
+
+.img_header {
+  border-radius: 50%;
+  border: 7px solid black;
+  margin-top: 15px;
+}
+
+.heading_header {
+  font-family: 'Lobster', cursive;
+  margin-top: 15px;
+}
+
+.about_me {
+  margin-top: 70px;
+  padding: 40px;
+}
+
+.about_me h2 {
+  font-family: 'Lobster', cursive;
+}
+
+.about_me p {
+  font-family: 'Lobster', cursive;
+  padding: 20px;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+  margin-top: 30px;
+}
+
+.projects .card {
+  padding: 20px;
+  height: 400px;
+}
+
+.contact {
+  margin-top: 60px;
+}
+
+.contact .contact_form {
+  margin-top: 60px;
+}
+
+.footer {
+  margin-top: 40px;
+  margin-left: 9%;
+}
+
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+@media screen and (max-width: 1072px) {
+  .projects {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .projects {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
